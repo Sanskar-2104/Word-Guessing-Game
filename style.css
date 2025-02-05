@@ -1,0 +1,207 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #7786f5;
+}
+.wrapper {
+  position: absolute;
+  width: 90%;
+  max-width: 37em;
+  background-color: #ffffff;
+  padding: 7em 3em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border-radius: 1em;
+}
+.controls-container {
+  background-color: #7786f5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+}
+#start {
+  font-size: 1.2em;
+  padding: 1em 3em;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  cursor: pointer;
+}
+#letter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em 0.4em;
+  justify-content: center;
+  margin-top: 2em;
+}
+#letter-container button {
+  background-color: #ffffff;
+  border: 2px solid #7786f5;
+  color: #7786f5;
+  outline: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  height: 3em;
+  width: 3em;
+}
+#letter-container .correct {
+  background-color: #008000;
+  color: #ffffff;
+  border: 2px solid #008000;
+}
+#letter-container .incorrect {
+  background-color: #8a8686;
+  color: #ffffff;
+  border: 2px solid #8a8686;
+}
+.hint-ref {
+  margin-bottom: 1em;
+}
+.hint-ref span {
+  font-weight: 600;
+}
+#chanceCount {
+  margin: 1em 0;
+  position: absolute;
+  top: 0.62em;
+  right: 2em;
+}
+#word {
+  font-weight: 600;
+  margin: 1em 0 2em 0;
+}
+#word span {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.hide {
+  display: none;
+} */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #0A1828; /* Dark classic blue background */
+}
+.wrapper {
+  position: absolute;
+  width: 90%;
+  max-width: 37em;
+  background-color: #ffffff; /* White wrapper for contrast */
+  padding: 5em 3em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  border-radius: 1.5em;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+.controls-container {
+  background-color: #0A1828; /* Dark blue for the background consistency */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+}
+#start {
+  font-size: 1.5em;
+  padding: 1.2em 3.5em;
+  background-color: #BFA181; /* Gold color for the button */
+  border: none;
+  outline: none;
+  border-radius: 3em;
+  cursor: pointer;
+  color: #0A1828; /* Dark classic blue text for contrast */
+  transition: background-color 0.3s ease;
+}
+#start:hover {
+  background-color: #a38d6a; /* Slightly darker gold on hover */
+}
+#letter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em 0.4em;
+  justify-content: center;
+  margin-top: 2em;
+}
+#letter-container button {
+  background-color: #ffffff; /* White background for buttons */
+  border: 2px solid #178582; /* Turquoise border */
+  color: #178582; /* Turquoise text */
+  outline: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  height: 3.5em;
+  width: 3.5em;
+  transition: all 0.3s ease;
+}
+#letter-container button:hover {
+  background-color: #178582; /* Turquoise background on hover */
+  color: #ffffff; /* White text on hover */
+  border-color: #178582; /* Turquoise border on hover */
+}
+#letter-container .correct {
+  background-color: #158119; /* Green for correct answers */
+  color: #ffffff;
+  border: 2px solid #158119;
+}
+#letter-container .incorrect {
+  background-color: #8b0808; /* Red for incorrect answers */
+  color: #ffffff;
+  border: 2px solid #8b0808;
+}
+.hint-ref {
+  margin-bottom: 1em;
+  color: #BFA181; /* Gold text for hint reference */
+}
+.hint-ref span {
+  font-weight: 600;
+}
+#chanceCount {
+  margin: 1em 0;
+  position: absolute;
+  top: 0.62em;
+  right: 2em;
+  font-size: 1.2em;
+  color: #BFA181; /* Gold color for the chance count */
+}
+#word {
+  font-weight: 600;
+  margin: 1em 0 2em 0;
+  font-size: 2em;
+  color: #ffffff; /* White text for the word */
+}
+#word span {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #178582; /* Turquoise word text */
+}
+.hide {
+  display: none;
+}
+#result{
+  color: #fff;
+}
