@@ -38,7 +38,7 @@ WORD GUESSING GAME/
 ## ⚙️ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/word-guessing-game.git
+   git clone https://github.com/Sanskar-2104/word-guessing-game.git
    ```
 2. Open `index.html` in your browser.
 
