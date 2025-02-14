@@ -42,9 +42,6 @@ WORD GUESSING GAME/
    ```
 2. Open `index.html` in your browser.
 
-## 🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request.
-
 ## 📜 License
 This project is licensed under the MIT License. ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
