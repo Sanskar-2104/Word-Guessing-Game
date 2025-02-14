@@ -19,7 +19,7 @@ The Word Guessing Game is a fun and interactive game where players try to guess 
 ## 📂 Project Structure
 
 ```
-TIC-TAC-TOE/
+WORD GUESSING GAME/
 ├── index.html
 ├── style.css
 ├── script.js
